@@ -1,0 +1,37 @@
+.App {
+  color: white;
+}
+
+table {
+  width: 100%;
+  border: 1px solid rgba(211, 211, 211, 0.25);
+  text-align: center;
+}
+
+tr > td > img {
+  height: auto;
+  width: 300px;
+  object-fit: cover;
+}
+
+table > thead {
+  background: #13161a;
+  padding: 20px;
+}
+
+table > thead > tr > th {
+  font-weight: 600;
+  padding: 10px 30px;
+  text-transform: capitalize;
+  font-size: 1.2em;
+  color: lightgrey;
+  letter-spacing: 2px;
+}
+
+tbody > tr  {
+  background: rgba(0, 0, 0, 0.2);
+}
+
+tbody > tr > td {
+  padding: 10px;
+}
